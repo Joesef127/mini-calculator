@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [github repository](https://github.com/Joesef127/mini-calculator/))
 - Live Site URL: [live demo](https://hivecalc.netlify.app)
 
 
