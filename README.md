@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repository](https://github.com/Joesef127/mini-calculator/)
-- Live Site URL: [live demo](https://hivecalc.netlify.app)
+- Live Site URL: [live demo](https://minicalc.netlify.app)
 
 
 ## My process
