@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="darkMode">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Joesef" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc-header">
+        <h2 id="calc-logo">calc</h2>
+        <div class="theme-switch">
+          <p id="theme-switch-label">THEME</p>
+          <button id="switch-theme" onclick="toggleTheme()">Change</button>
+        </div>
+      </div>
+      <div class="calc-screen">
+        <!-- <div id="calc-input"></div> -->
+        <input type="text" name="number" id="calc-input" placeholder="0" />
+      </div>
+      <div class="calc-body">
+        <button class="keypad value" id="seven">7</button>
+        <button class="keypad value" id="eight">8</button>
+        <button class="keypad value" id="nine">9</button>
+        <button class="keypad" id="del">del</button>
+        <button class="keypad value" id="four">4</button>
+        <button class="keypad value" id="five">5</button>
+        <button class="keypad value" id="six">6</button>
+        <button class="keypad value" id="sum">+</button>
+        <button class="keypad value" id="one">1</button>
+        <button class="keypad value" id="two">2</button>
+        <button class="keypad value" id="three">3</button>
+        <button class="keypad value" id="diff">-</button>
+        <button class="keypad value" id="point">.</button>
+        <button class="keypad value" id="zero">0</button>
+        <button class="keypad value" id="div">/</button>
+        <button class="keypad value" id="prod">*</button>
+        <button class="keypad last-keypad" id="reset">Reset</button>
+        <button class="keypad last-keypad" id="equals">=</button>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.github.com/joesef127">Joesef</a>.
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
